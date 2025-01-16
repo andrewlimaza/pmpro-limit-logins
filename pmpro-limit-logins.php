@@ -57,7 +57,7 @@ class PMPro_Limit_Logins {
 			&& is_user_logged_in() ) {
 			wp_enqueue_script(
 				'pmpro_limit_logins', 
-				plugins_url( 'js/limit-logins.js', __FILE__ ),
+				plugins_url( 'js/pmpro-limit-logins.js', __FILE__ ),
 				array( 'jquery' ),
 				PMPRO_LIMIT_LOGINS_VERSION
 			);
